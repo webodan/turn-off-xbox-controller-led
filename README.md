@@ -1,6 +1,6 @@
 # Automatically disable the Xbox One/Series S/X Controller LED on Linux
 
-This is a udev rule that turns off the Xbox One/Series S/X Controller LED upon connecting it to a Linux system using the xone driver by medusalix. Tested on both wireless (xone-dongle) and wired (xone-wired) USB connectivity.
+This is a udev rule that turns off the Xbox One/Series S/X Controller LED upon connecting it to a Linux system using the xone driver by medusalix. Tested and working on both wireless (xone-dongle) and wired (xone-wired) USB connectivity.
 
 Put this rule in /etc/udev/rules.d and remember to run udevadm control --reload as the root user to enable it.
 
